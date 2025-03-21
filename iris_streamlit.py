@@ -9,7 +9,7 @@ import numpy as np
 import pickle 
 import streamlit as st
 
-loaded_model = pickle.load(open("D:/SEM 5 INTERNSHIP/api_model/iris_model.sav",'rb'))
+loaded_model = pickle.load(open("iris_model.sav",'rb'))
 
 def iris_pred(input_data):
 
